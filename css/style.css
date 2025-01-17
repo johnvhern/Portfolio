@@ -512,3 +512,23 @@ textarea {
 .btn-submit:hover {
   outline: solid 2px var(--var-color-accent);
 }
+
+.modal-content {
+  background-color: var(--var-body-bg);
+}
+
+.modal-header,
+.modal-footer {
+  border-color: transparent;
+}
+
+.modal-footer button {
+  border-style: none;
+  background-color: var(--var-color-accent);
+  color: var(--var-body-bg);
+}
+
+.modal-footer button:hover {
+  background-color: var(--var-body-accent);
+  color: var(--var-font-color-primary);
+}

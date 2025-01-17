@@ -31,12 +31,21 @@ window.onload = function () {
       // Send the form through EmailJS if validation passes
       emailjs.sendForm("contact-service", "contact_form", this).then(
         () => {
-          alert("Message sent successfully");
-          // Optional: Clear form fields after submission
+          // Show success modal
+          const successModal = new bootstrap.Modal(
+            document.getElementById("successModal")
+          );
+          successModal.show();
+
+          // Clear form fields after submission
           document.getElementById("contact-form").reset();
         },
         (error) => {
-          alert("Failed to send message");
+          // Show error modal
+          const errorModal = new bootstrap.Modal(
+            document.getElementById("errorModal")
+          );
+          errorModal.show();
         }
       );
     });
