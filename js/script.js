@@ -75,9 +75,10 @@ function downloadCV() {
         if (!form.checkValidity()) {
           event.preventDefault();
           event.stopPropagation();
+          form.classList.add("was-validated");
+        } else {
+          form.classList.remove("was-validated");
         }
-
-        form.classList.add("was-validated");
       },
       false
     );
