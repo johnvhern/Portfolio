@@ -297,7 +297,6 @@ nav {
 .info {
   display: flex;
   margin-top: 5em;
-  justify-content: start;
 }
 
 .info-container {
@@ -327,7 +326,7 @@ nav {
 .list-item li {
   color: var(--var-color-accent);
   list-style: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 500;
   margin-bottom: 1.7em;
 }
@@ -339,6 +338,9 @@ nav {
 }
 
 @media (max-width: 935px) {
+  .list-item li {
+    font-size: 0.8rem;
+  }
   .list-item {
     margin: 7px;
     padding: 0;
