@@ -327,7 +327,7 @@ nav {
 .list-item li {
   color: var(--var-color-accent);
   list-style: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 1.7em;
 }
@@ -356,10 +356,6 @@ nav {
 
   .info {
     justify-content: center;
-  }
-
-  .list-item li {
-    font-size: 0.75rem;
   }
 }
 /* 
