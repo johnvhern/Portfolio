@@ -56,7 +56,7 @@ document.getElementById("btn-copy").addEventListener("click", copyEmail);
 
 function downloadCV() {
   window.open(
-    "https://drive.google.com/file/d/1otnBMCGNQqlTBDiIs-9eL6Gia8h2JV24/view?usp=sharing",
+    "https://drive.google.com/file/d/1JRj9pjpMl-6I4gnNFmMpajALNJRUrhfG/view?usp=sharing",
     "_blank"
   );
 }
